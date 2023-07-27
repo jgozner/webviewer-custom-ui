@@ -51,7 +51,8 @@ const App = () => {
   };
 
   const zoomIn = () => {
-    documentViewer.zoomTo(documentViewer.getZoomLevel() + 0.25);
+    //documentViewer.zoomTo(documentViewer.getZoomLevel() + 0.25);
+    documentViewer.setCurrentPage(3)
   };
 
   const startEditingContent = () => {

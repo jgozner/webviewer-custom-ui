@@ -37,6 +37,7 @@
 }
 
 #main-column {
+  height: 500px;
   flex-direction: row;
   flex: 3;
 }
